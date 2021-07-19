@@ -12,7 +12,8 @@ app = App(
 @app.event("message")
 def handle_message(client, event, logger):
   try:
-      if 
+      print(client)
+      print(event)
       print("Hamster")
   
   except Exception as e:
